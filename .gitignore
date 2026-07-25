@@ -70,6 +70,9 @@ web_modules/
 .env.*
 !.env.example
 
+# 런타임에 생성되는 길드별 설정 저장소
+data/
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
