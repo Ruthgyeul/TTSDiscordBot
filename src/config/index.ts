@@ -43,10 +43,10 @@ const config = {
   },
 
   tts: {
-    // 기본 음성 프리셋 키 (src/config/voices.ts) — 예: korean, us, japanese
-    voice: process.env.DEFAULT_VOICE || 'korean',
-    // 기본 말투 키 (src/config/styles.ts) — 예: normal, robot, echo
-    style: process.env.DEFAULT_STYLE || 'normal',
+    // 기본 음성 프리셋 키 (src/config/voices.ts) — 캐릭터성: 선희(뉴럴·여)
+    voice: process.env.DEFAULT_VOICE || '선희',
+    // 기본 말투 키 (src/config/styles.ts) — 캐릭터성: 다람쥐(하이톤)
+    style: process.env.DEFAULT_STYLE || 'chipmunk',
     // 특정 제공자 실패 시 폴백으로 쓸 제공자
     fallbackProvider: (process.env.FALLBACK_TTS_PROVIDER || 'google').toLowerCase(),
     // 폴백 시 사용할 언어
